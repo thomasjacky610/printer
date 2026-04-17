@@ -1,0 +1,32 @@
+nav.navbar.navbar-expand-lg.navbar-primary.fixed-top {
+    background: #ffff;
+    padding: 0px;
+}
+ul.ft-rht {
+    list-style: none;    padding-left: 0px;
+    margin-bottom: 0px;
+}
+ul.ft-rht li {
+    display: inline-block;
+    margin-right: 16px;
+}
+ul.ft-rht li a {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+.cprt-dv {
+    border-top: 1px solid #fff;
+    padding: 7px 0px;
+}
+.cprt-dv p {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.landinghome h1 {
+    color: #fff;
+}
+.landinghome p {
+    color: #fff;
+}
+

@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&amp;display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+.list li {
+  list-style-type: none;
+}
+
+.navbar-nav li {
+  font-size: 15px;
+  margin-left: 8px;
+}
+
+.navbar-nav li a {
+  color: #000;
+  font-weight:600;
+}
+.navbar-nav li a:hover {
+    color: #014196;
+  font-weight:600;
+}
+
+.navbar-nav li:hover {
+  border-bottom: 1px solid #014196;
+}
+
+.containerr {
+  background-color: #000;
+  color: white;
+  padding: 40px;
+}
+
+.list li a {
+  text-decoration: none;
+  color: white;
+  position: relative;
+  right: 25px;
+}
+
+.list li a:hover {
+  border-bottom: 2px solid white;
+}
+
+.footer {
+  font-size: 13px;
+}
+
+.footer h6 {
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.assistance {
+  width: 100%;
+  padding: 34px 0;
+    background-color: #014196;
+  color: white;
+  text-align: center;
+}
+
+.assistance2 {
+  width: 100%;
+  padding: 30px 0;
+  background-color: #014196;
+  color: white;
+  text-align: center;
+}
+
+.assistance3 {
+  width: 100%;
+  padding: 30px 0;
+  background-color: #014196;
+  margin-top: 3%;
+  color: white;
+  text-align: left;
+}
+
+.landing {
+  width: 100%;
+  padding: 130px 0 60px;
+  background-color: #40586d;
+  color: white;
+  text-align: left;
+}
+
+.landinghome {
+  padding: 135px 0;
+  background-image: url("../images/proprintify-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+      height: 415px;
+    background-position: center;
+    margin-top: 84px;
+
+}
+
+.data-services-img {
+  padding: 200px 0;
+  background-image: url("../images/data-services.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cloud-computing-img {
+  padding: 200px 0;
+  background-image: url("../images/cloud-computing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cyber-security-img {
+  padding: 200px 0;
+  background-image: url("../images/cyber-security.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.managed-it-img {
+  padding: 200px 0;
+  background-image: url("../images/managed-it.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-us-img {
+  padding: 200px 0;
+  background-image: url("../images/contact-us.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.privacy-policy-img {
+  padding: 200px 0;
+  background-image: url("../images/privacy-policy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.terms-of-services-img {
+  padding: 200px 0;
+  background-image: url("../images/terms-of-services.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-us-img {
+  padding: 200px 0;
+  background-image: url("../images/about-us.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.disclaimer-img {
+  padding: 200px 0;
+  background-image: url("../images/disclaimer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.assis {
+  font-size: 20px;
+}
+
+.fixed-footer {
+  background-color: #014196;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.fixed-footer p a {
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  top: 7px;
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 500px) {
+  .banner img {
+    height: 150px;
+  }
+
+  .images {
+    height: 300px;
+  }
+
+  .main img {
+    margin-top: 15%;
+  }
+}
